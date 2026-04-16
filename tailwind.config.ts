@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,16 +48,21 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        careon: {
+          green: "var(--careon-green)",
+          "green-light": "var(--careon-green-light)",
+          dark: "var(--careon-dark)",
+          "dark-card": "var(--careon-dark-card)",
+          "dark-surface": "var(--careon-dark-surface)",
+          gray: "var(--careon-gray)",
+          "gray-dark": "var(--careon-gray-dark)",
+          "gray-mid": "var(--careon-gray-mid)",
+          "light-bg": "var(--careon-light-bg)",
+          "light-border": "var(--careon-light-border)",
         },
+      },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
